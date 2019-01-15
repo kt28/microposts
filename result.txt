@@ -1,0 +1,17 @@
+.
+..
+.aws
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.c9
+.codeintel
+.composer
+environment
+.gitconfig
+.npm
+.nvm
+.pki
+.ssh
+ADD

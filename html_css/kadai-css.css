@@ -1,0 +1,48 @@
+@charset "UTF-8"
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    max-width: 1000px;
+    min-width: 263px;
+    background-color: #ffcccc;
+}
+
+header p {
+    margin: 0;
+}
+
+#wrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#main {
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    background-color: #ccffcc;
+}
+
+#menu {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #ccccff;
+}
+
+footer {
+    display: block;
+    max-width: 1000px;
+    min-width: 263px;
+    background-color: #ffccff;
+}
+
+footer p {
+    margin: 0;
+}

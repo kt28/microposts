@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML/CSS</title>
+    </head>
+    <body>
+        <header>
+            <!-- ここにヘッダーが入ります -->
+        </header>
+        <div>
+            <article>
+                <!-- ここに本文が入ります -->
+                <h1>HTML/CSS</h1>
+        
+                <section>
+                    <h2>学習の目標</h2>
+                    <p>このレッスンではWebアプリケーションを作成する上で必要な知識のうち、ブラウザに表示される内容を作成するための言語であるHTMLとCSSを学びます。</p>
+                    <p>中略</p>
+                </section>
+        
+                <section>
+                    <h2>Webページが表示される仕組み</h2>
+            
+                    <div>
+                        <h3>Webブラウザについて（おさらい）</h3>
+                        <p>Webブラウザとは、Webサイトを閲覧するためのアプリケーションです。単にブラウザと呼ばれています。</p>
+                        <p>中略</p>
+                    </div>
+                </section>
+        
+                <!-- 以下略 -->
+        
+        
+                <img src="http://static.techacademy.jp/magazine/wp-content/themes/ta-magazine/images/logo-magazine.png" alt="techacademy magazineのロゴ">
+                <p>文書の中身を大きく分けるとhead要素とbody要素に分かれます。<br>それぞれheadタグとbodyタグで囲います。</p>
+                <p>head要素内には文書に関する「メタ情報」を記述し、body要素には「コンテンツ」を記述します。メタ情報(head)には閲覧者に表示されない設定やページ情報などを記述し、コンテンツ(body)には閲覧者に見てもらうためのWebページの文書を記述します。</p>
+                <p>headタグ内に記述するメタ情報には、ページタイトル、外部スタイルシートの場所、外部JavaScriptファイルの場所、文字エンコーディング情報、ページの概要、などが含まれます。ブラウザで表示した際に、これらの内容は表示されません。</p>
+                <a href="https://techacademy.jp/">TechAcademy [テックアカデミー] | オンラインブートキャンプ</a>
+                <a href="https://techacademy.jp/magazine/"><img src="http://static.techacademy.jp/magazine/wp-content/themes/ta-magazine/images/logo-magazine.png" alt="techacademy magazine logo"></a>
+                <ul>
+                    <li>飲料水</li>
+                    <li>パン</li>
+                    <li>牛乳</li>
+                    <li>鶏肉</li>
+                </ul>
+                <ol>
+                    <li>飲料水</li>
+                    <li>パン</li>
+                    <li>牛乳</li>
+                    <li>鶏肉</li>
+                </ol>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>名前</th>
+                            <th>メールアドレス</th>
+                            <th>電話番号</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <td>煌木 太郎</td>
+                            <td>taro.kirameki@example.com</td>
+                            <td>09011112222</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>煌木 次郎</td>
+                            <td>jiro.kirameki@example.com</td>
+                            <td>09033334444</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td>煌木 花子</td>
+                            <td>hanako.kirameki@example.com</td>
+                            <td>09055556666</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form>
+                    <label for="name">名前</label>
+                    <input type="text" id="name">
+                    <br>
+            
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email">
+                    <br>
+            
+                    <label for="password">パスワード</label>
+                    <input typr="password" id="password">
+                    <br>
+            
+                    <label for="confirm">確認パスワード</label>
+                    <input type="password" id="confirm">
+                    <br>
+            
+                    <input type="submit" value="登録する">
+                </form>
+                <div id="introduction">
+                    <p>これから～～の紹介をします。</p>
+                </div>
+                
+                <div class="main">
+                    <p>これから～～の紹介をします。</p>
+                </div>
+            </article>
+            <aside>
+                <!-- ここにサイドバーが入ります -->
+            </aside>
+        </div>
+        <footer>
+            <!-- ここにフッターが入ります -->
+        </footer>
+    </body>
+</html>
